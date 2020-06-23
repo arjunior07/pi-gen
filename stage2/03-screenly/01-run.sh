@@ -9,7 +9,7 @@ on_chroot << EOF
   curl -s -o /tmp/wait-for-it.sh https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh
   chmod +x /tmp/wait-for-it.sh
 
-  git clone https://github.com/Screenly/screenly-ose.git /home/pi/screenly
+  git clone https://github.com/arjunior07/fyp-project.git /home/pi/screenly
   cd /home/pi/screenly
   git checkout production
 
