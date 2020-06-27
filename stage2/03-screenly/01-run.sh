@@ -11,9 +11,8 @@ on_chroot << EOF
 
   git clone https://github.com/arjunior07/fyp-project.git /home/pi/screenly
   cd /home/pi/screenly
-  git checkout production
 
-  pip install -r requirements.txt
+  pip install -r requirements/requirements.txt
   mkdir -p /etc/ansible
   echo -e "[local]\nlocalhost ansible_connection=local" | tee /etc/ansible/hosts > /dev/null
 
